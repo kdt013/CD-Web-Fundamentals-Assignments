@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+.nav{
+    padding: 0 100px;
+    /* background-color:palegoldenrod; */
+}
+.nav-bar{
+    background-color: lightgrey;
+    color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.btn{
+    color: white;
+    background-color: blue;
+    width: 55px;
+    height: 25px;
+    font-size: 15px;
+    box-shadow: 2px 2px 1px 1px black;
+    /* margin-right: 25px; */
+}
+.main{
+    /* background-color: crimson; */
+    margin-top: 30px;
+    display: flex;
+}
+.left{
+    /* background-color: chartreuse; */
+    height: 700px;
+    width: 620px;
+}
+.top-left{
+    /* background-color: cadetblue; */
+    height: 300px;
+    width: 620px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.bottom-left{
+    /* background-color: cadetblue; */
+    height: 300px;
+    width: 620px;
+    border: 3px solid black;
+    display: flex;
+    margin-top: 50px;
+}
+.ninja{
+    /* background-color: darkorchid; */
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.define{
+    /* background-color: bisque; */
+    height: 300px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size:x-large; 
+}
+.likes-btn{
+    background-color: rgb(240, 207, 21);
+    color: black;
+    width: 70px;
+    height: 35px;
+    font-size: 15px;
+    box-shadow: 2px 2px 1px 1px black;
+}
+.top-right{
+    /* background-color: cadetblue; */
+    height: 250px;
+    width: 340px;
+    margin-left: 100px;
+    font-size: x-large;
+    border: 3px solid black;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.add-def{
+    background-color: green;
+    color: black;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    box-shadow: 2px 2px 1px 1px black;
+}

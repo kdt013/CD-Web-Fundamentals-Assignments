@@ -1,0 +1,31 @@
+h1{
+    color:black;
+    font-family: sans-serif;
+    text-align: center;
+}
+.blue{
+    background-color: lightskyblue;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pink{
+    background-color: pink;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.green{
+    background-color: lightseagreen;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+img.cat{
+    height:250px;
+}

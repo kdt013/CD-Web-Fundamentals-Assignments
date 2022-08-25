@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    display: flex;
+    background-color: rgb(95, 93, 93);
+    color: white;
+    padding:10px;
+}
+.nav-title{
+    color: white; 
+    align-items: center;
+    width:60%;
+    justify-content: space-evenly;
+}
+ul{
+    color: white;
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+    align-content: space-evenly;
+    margin-top: 20px;
+}
+a{
+    color:white;
+}
+.nav-links{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.active{  
+    color: white;
+    font-weight: bold;
+}
+.btn{
+    color: white;
+    background-color: rgb(15, 230, 230);
+    width: 100px;
+    height: 25px;
+    font-family: serif;
+    font-size: 15px;
+    box-shadow: 2px 2px 1px 1px black;
+}
+.main{
+    display: flex;
+}
+.left{
+    background-color: white;
+}
+.right{
+    background-color: white;
+}
+.one{
+    background-color: white;
+    height: 350px;
+    width: 500px;
+    border: 3px solid lightgrey;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.user{
+    background-color: darkturquoise;
+    height:100px;
+    width:500px;
+}
+img.profile
+{
+    height:90px;
+    position: relative;
+    left:20px;
+    top:50px;
+    border-radius: 50%;
+}
+.name{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+img.pin{
+    height: 20px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.city{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    top: -15px;
+}
+.job{
+    margin-left: 20px;
+    position: relative;
+    top: -10px;
+}
+.gear{
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    /* position: relative;
+    left: 20px;
+    bottom: 10px; */
+}
+.edit{
+    margin-left: 50px;
+    position: relative;
+    bottom: 25px;
+    color: blue;
+}
+.bottom-left{
+   background-color: white;
+   height: 265px;
+   width: 500px;
+   border: 3px solid lightgray;
+   margin-top: 300px;
+}
+
+.top-right{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border: 3px solid lightgrey;
+    margin-left: 100px; 
+    margin-top: 50px; 
+}
+.connect{
+    background-color: black;
+    height:70px;
+    width:300px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.request{
+    margin: 50px;
+    font-size: larger;
+}
+.grey{
+    color: black;
+    background-color: lightgrey;
+    /* position: absolute;
+    text-align: center; */
+    border-radius: 50px;
+    /* height: 40px;
+    width: 40px;
+    border-radius: 50%; */
+}
+img.todd{
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+img.phil
+{
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+img.accept{
+    height: 30px;
+    margin-left: 100px;
+}
+img.decline{
+    height: 30px;
+}
+.education{
+    background-color: black;
+    height: 70px;
+    width: 500px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.educate{
+    margin-left: 50px;
+}
+.bottom-right{
+    background-color:white;
+    height: 400px;
+    width: 300px;
+    border: 3px solid lightgrey;
+    margin-left: 100px;
+    margin-top: 70px;
+}
+.your-connections{
+    background-color: black;
+    height: 70px;
+    width: 300px;
+    color: white;
+
+}
+.coding{
+    margin-left: 20px;
+    position: relative;
+    left: 30px;
+}
+.year{
+    color: gray;
+}
+.adrien{
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 20px;
+}

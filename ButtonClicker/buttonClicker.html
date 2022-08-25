@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="buttonClicker.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <b>
+        <div class="nav">
+            <div class="nav-bar">
+                <h1>Dojonary</h1>
+                <div class="search">
+                    <input type="text" name="search" placeholder="Search">
+                </div>
+                <button onclick="clicked(this)" class="btn">Login</button>
+            </div>
+
+            <div class="main">
+                <!-- LEFT SIDE -->
+                <div class="left">
+                    <div class="top-left">
+                        <div class="ninja">
+                            <h1>ninja</h1>
+                            <p><i>noun</i></p>
+                            <p>
+                                Plural: <i>ninjas</i>
+                            </p>
+                            <button class="likes-btn" onclick="alert('Ninja was liked')">13 likes</button>
+                        </div>
+
+                        <div class="define">
+                            <p>A practitioner skilled in the
+                                <br>
+                                <a href="#">Japanese</a>
+                                art of
+                                <a href="#">ninjutsu</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="bottom-left">
+                        <div class="ninja">
+                            <h1>ninja</h1>
+                            <p><i>noun</i></p>
+                            <p>
+                                Plural: <i>ninjas</i>
+                            </p>
+                            <button class="likes-btn" onclick="alert('Ninja was liked')">37 likes</button>
+                        </div>
+
+                        <div class="define">
+                            <p>
+                                A
+                                <a href="#">
+                                    programmer
+                                </a>
+                                who breaks<br> down problems with
+                                <a href="#">
+                                    zen
+                                </a>-like<br> focus
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="right">
+                    <div class="top-right">
+                        <p>Dojonary is <br>defined by YOU</p>
+                        <br>
+                        <button onclick="def(this)" class="add-def">Add Definition</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </b>
+
+    <script src="buttonClicker.js"></script>
+</body>
+
+</html>

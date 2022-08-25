@@ -1,0 +1,29 @@
+*{
+    font-family:sans-serif;
+}
+
+h1{
+    color: cyan;
+}
+.black{
+    background-color: black;
+}
+.my{
+    color:white;
+}
+
+h2{
+    color: white;
+    background-color: rgb(104, 18, 151);
+    font-style:italic;
+}
+
+.center{
+    text-align:center;
+}
+
+h3{
+    background-color: rgb(123, 181, 228);
+    text-align:right;
+    text-decoration: underline;
+}

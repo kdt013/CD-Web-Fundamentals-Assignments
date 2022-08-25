@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+    background-color: rgb(228, 175, 239);
+}
+
+h1 {
+    color: greenyellow;
+    font-size: 50px;
+    padding: 40px;
+    border: 10px;
+}
+
+h2{
+    color:aqua;
+}
+
+/*element*/
+p{
+    color: rgb(185, 22, 158);
+}
+
+/*class*/
+.orange{
+    color: orange;
+    text-align: center;
+}
+
+/* ID */
+#start{
+    background-color: pink;
+}
+
+.small{
+    width: 100px;
+}
+
+.green{
+    color: green
+}
+
+/* div{
+    width: 100%;
+    height: 200px;
+} */
+
+h1{
+    display: inline-block;
+}

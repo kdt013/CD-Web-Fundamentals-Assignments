@@ -1,0 +1,23 @@
+.bigbox{
+    background-color: lightsalmon;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 100px;
+}
+
+.smallbox{
+    background-color: lightseagreen;
+    height:75px;
+    width:75px;
+    /* display: inline-block;
+    margin: 10px; */
+}
+
+.yellowbox{
+    background-color: lightgoldenrodyellow;
+    height: 100px;
+    width:100px;
+    
+}

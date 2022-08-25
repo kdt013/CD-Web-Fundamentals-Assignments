@@ -1,0 +1,33 @@
+.search{
+    font-family: monospace;
+    font-size: x-large;
+    color:rgb(123, 225, 191);
+    border-radius: 500px;
+    border-color: rgb(123, 225, 191);
+    background-color:rgb(241, 234, 234);
+    width: 150px;
+    height: 35px;
+
+}
+
+.round{
+    border-radius: 50%;
+    border-color: rgb(123, 225, 191);
+    width: 50px;
+    height: 50px;
+    font-size:x-large;
+    color:white;
+    background-color:rgb(123, 225, 191);
+}
+
+.create{
+    color: white;
+    background-color: dodgerblue;
+    width: 200px;
+    height: 40px;
+    font-family: serif;
+    font-size: 20px;
+    box-shadow: 5px 5px 1px 1px black;
+
+}
+

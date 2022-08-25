@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PetShelter.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="nav">
+
+        <div class="top-bar">
+            <div class="top-left-bar">
+                <h1 id="logo">
+
+                    <img src="assets/heart-light.png" height="50" alt="heart">
+
+                    Pet Shelter
+                </h1>
+
+            </div>
+            <div class="top-right-bar">
+                <p>Find a Pet</p>
+                <p>About</p>
+                <button onclick="donate(this)" class="donate">Donate</button>
+            </div>
+        </div>
+
+        <div class="bottom-bar">
+            <div class="pet-drop">
+                <div class="p">
+                    <p>Im looking for a...</p>
+                    <p>in or near...</p>
+                </div>
+                <div class="paw-pin">
+                    <div class="paw">
+                        <img src="assets/paw-light.png" height="50" alt="paw">
+
+                        <select class="select" id="value" onchange="animal(this)">
+                            <option value="any">Any Pet</option>
+                            <option value="dog">Dog</option>
+                            <option value="cat">Cat</option>
+                        </select>
+                    </div>
+
+                    <div class="city">
+                        <img src="assets/pin-light.png" height="40" alt="pin">
+                        <div class="search-bar">
+                            <input type="text" name="search" size="20" placeholder="City or Zip Code">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div>
+                <button class="best-friend">Find your new best friend</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="body">
+        <div class="pepper">
+            <img src="assets/pepper.jpg" height="100" alt="pepper">
+
+            <div class="both">
+                <div class="description">
+                    <h1>Pepper</h1>
+                    <p>Pepper is a slightly shy grey tabby,
+                        but she<br>really loves showing her human affection.
+                    </p>
+                </div>
+                <div class="pettings">
+                    <p>
+                        <span id="pepperPets">3</span>
+                        petting(s)
+                    </p>
+                    <button class="pet-btn" onclick="pepperPets()">Pet Pepper</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="bruce">
+            <img src="assets/bruce.jpg" height="100" alt="bruce">
+
+            <div class="both">
+                <div class="description">
+                    <h1>Bruce</h1>
+                    <p>Bruce is a loyal companion. He loves long<br>
+                        walks and cold weather
+                    </p>
+                </div>
+                <div class="pettings">
+                    <p>
+                        <span id="brucePets">5</span>
+                        petting(s)
+                    </p>
+                    <button class="pet-btn" onclick="brucePets()">Pet Bruce</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="oscar">
+            <img src="assets/oscar.jpg" height="100" alt="oscar">
+
+            <div class="both">
+                <div class="description">
+                    <h1>Oscar</h1>
+                    <p>Oscar is bright, energetic and friendly. He is<br>
+                        looking for a good home.
+                    </p>
+                </div>
+                <div class="pettings">
+                    <p>
+                        <span id=oscarPets>8</span>
+                        petting(s)
+                    </p>
+                    <button class="pet-btn" onclick="oscarPets()">Pet Oscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="PetShelter.js"></script>
+</body>
+
+</html>

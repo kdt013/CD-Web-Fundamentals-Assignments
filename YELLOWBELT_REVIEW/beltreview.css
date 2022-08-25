@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#nav {
+    width: 100%;
+    height: 75px;
+    background-color: black;
+}
+
+#rightNav {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    font-size: 1.5em;
+    padding: 2px;
+}
+
+navIcon {
+    height: 50px;
+}
+
+.centeredContainer {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: cadetblue; */
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#carousel {
+    background-color: orangered;
+    width: 100%;
+    height: 334px;
+}
+
+#pageRectangles {
+    width: 40%;
+    height: 25px;
+    background-color: rebeccapurple;
+    margin: 0 auto;
+}
+
+#gamesContainer {
+    background-color: seagreen;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gameBox {
+    height: 100%;
+    width: 28%;
+    background-color: pink;
+}
+
+#logo {
+    color: white;
+    font-size: 2em;
+}
+
+#logo>span {
+    color: rebeccapurple;
+}
+
+#banner {
+    heigh: 100%
+}
+
+#rightArrow {
+    transform: scaleX(-1);
+}
+
+.pageRectangle {
+    height: 100%;
+    width: 20px;
+    background-color: grey;
+}
+
+#purpleRectangle{
+    background-color: purple;
+}
